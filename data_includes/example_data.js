@@ -24,7 +24,7 @@ var items = [ ["sep", "Separator", { }],
 
 ["intro", "Form", { html: { include: "example_intro.html" } }],
 
-["practice", aj, {s: "John walked the dog.", hasCorrect: 1, instructions: "This is an example of a neutral sentence. Choose the \"Neutral\" option to proceed."}],
+["practice", aj, {s: {html: <big> "<b> John walked the dog."}, hasCorrect: 1, instructions: "This is an example of a neutral sentence. Choose the \"Neutral\" option to proceed."}],
 ["practice", aj, {s: "Mary excitedly greeted the arriving guests.", hasCorrect: 0, instructions: "This sentence is more emotive. Choose an appropriate response."}],
 ["practice", aj, {s: "The student was arrested for his violent behavior.", hasCorrect: 2, instructions: "This is the last practice before the survey begins."}],
 
