@@ -1,4 +1,6 @@
 .sentence {
+	font-weight: bold;
+	font-size: 16pt;
      background-color: white;
      clear: both;
 }
