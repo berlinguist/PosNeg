@@ -3,9 +3,24 @@
     padding-left: 0;
 }
 
+.sentence {
+	font-weight: bold;
+	font-size: 16pt;
+     background-color: white;
+     clear: both;
+}
+
 .sentence-text {
-    font-weight: bold;
-    font-size: 24pt;
+     background-color: white;
+     clear: both;
+     font-weight: bold;
+	font-size: 16pt;
+}
+
+
+.s-text{
+	font-weight: bold;
+	font-size: 16pt;
 }
 .instructions-text {
     font-style: italic;
