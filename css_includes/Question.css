@@ -2,6 +2,11 @@
 	margin-left: 0;
     padding-left: 0;
 }
+
+.s{
+    font-weight: bold;
+    font-size: 16pt;
+}
 .instructions-text {
     font-style: italic;
     clear: left;
