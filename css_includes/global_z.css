@@ -1,29 +1,29 @@
-.sentence {
+.sentence-s {
   font-size:16pt;
   font-weight:bold;
 }
 
-.DahsedSentence-sentence{
+.DahsedSentence-sentence-s{
 	font-size:16pt;
   font-weight:bold;
 }
 
-.AcceptabilityJudgment-sentence{
+.AcceptabilityJudgment-sentence-s{
 	font-size:16pt;
   font-weight:bold;
 }
 
-.FlashSentence-sentence{
+.FlashSentence-sentence-s{
 	font-size:16pt;
   font-weight:bold;
 }
 
-.Message-sentence{
+.Message-sentence-s{
 	font-size:16pt;
   font-weight:bold;
 }
 
-.Question-sentence{
+.Question-sentence-s{
 	font-size:16pt;
   font-weight:bold;
 }
