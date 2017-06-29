@@ -25,6 +25,12 @@ body {
 	font-size: 16pt;
 }
 
+.s{
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+
 .lindent { margin-left: 5em; }
 .sending-results {
     font-weight: bold;
