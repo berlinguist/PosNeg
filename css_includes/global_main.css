@@ -5,14 +5,14 @@ body {
     margin-top: 5em;
 }
 
-.sentence {
+.AcceptabilityJudgment-sentence {
 	font-weight: bold;
 	font-size: 16pt;
      background-color: white;
      clear: both;
 }
 
-.sentence-text {
+.AcceptabilityJudgment-sentence-text {
      background-color: white;
      clear: both;
      font-weight: bold;
@@ -20,12 +20,12 @@ body {
 }
 
 
-.s-text{
+.AcceptabilityJudgment-s-text{
 	font-weight: bold;
 	font-size: 16pt;
 }
 
-.s{
+.AcceptabilityJudgment-s{
 	font-weight: bold;
 	font-size: 16pt;
 }
