@@ -4,6 +4,27 @@ body {
     margin-left: 0;
     margin-top: 5em;
 }
+
+.sentence {
+	font-weight: bold;
+	font-size: 16pt;
+     background-color: white;
+     clear: both;
+}
+
+.sentence-text {
+     background-color: white;
+     clear: both;
+     font-weight: bold;
+	font-size: 16pt;
+}
+
+
+.s-text{
+	font-weight: bold;
+	font-size: 16pt;
+}
+
 .lindent { margin-left: 5em; }
 .sending-results {
     font-weight: bold;
