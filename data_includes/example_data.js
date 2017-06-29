@@ -1,4 +1,4 @@
-var shuffleSequence = seq("intro", sepWith("sep", seq("practice")), sepWith("sep", rshuffle("pos1", "pos2", "pos3", "pos4", "pos5", "pos6", "pos7", "pos8", "neg1", "neg2", "neg3", "neg4", "neg5", "neg6", "neg7", "neg8", "neut1", "neut2", "neut3", "neut4", "neut5", "neut6", "neut7", "neut8")));
+var shuffleSequence = seq("intro", sepWith("sep", seq("practice")), sepWith("sep", rshuffle(startsWith("neut"), startsWith("pos"), startsWith("neg"))));
 
 var practiceItemTypes = ["practice"];
 
@@ -60,68 +60,68 @@ var items = [ ["sep", "Separator", { }],
 [["neut8", 8], aj, {s: {html: "<big> <b> She stamped visas for the tourists. "}}],
 [["neut8", 8], aj, {s: {html: "<big> <b> He wore khakis to the wedding. "}}],
 
-[["pos1", 1], aj, {s: {html: "<big> <b> She bought presents for the new baby. "}}],
-[["pos1", 1], aj, {s: {html: "<big> <b> He tickled the lion cub on the safari. "}}],
-[["pos1", 1], aj, {s: {html: "<big> <b> They sang love songs all night long. "}}],
+[["pos1", 9], aj, {s: {html: "<big> <b> She bought presents for the new baby. "}}],
+[["pos1", 9], aj, {s: {html: "<big> <b> He tickled the lion cub on the safari. "}}],
+[["pos1", 9], aj, {s: {html: "<big> <b> They sang love songs all night long. "}}],
 
-[["pos2", 2], aj, {s: {html: "<big> <b> She kissed the rescue dog after adopting it. "}}],
-[["pos2", 2], aj, {s: {html: "<big> <b> He called his mom to tell her the good news. "}}],
-[["pos2", 2], aj, {s: {html: "<big> <b> They stopped for cake after the musical. "}}],
+[["pos2", 10], aj, {s: {html: "<big> <b> She kissed the rescue dog after adopting it. "}}],
+[["pos2", 10], aj, {s: {html: "<big> <b> He called his mom to tell her the good news. "}}],
+[["pos2", 10], aj, {s: {html: "<big> <b> They stopped for cake after the musical. "}}],
 
-[["pos3", 3], aj, {s: {html: "<big> <b> She achieved her dream of being famous. "}}],
-[["pos3", 3], aj, {s: {html: "<big> <b> He inspired the children to succeed. "}}],
-[["pos3", 3], aj, {s: {html: "<big> <b> They transformed the garden into an oasis. "}}],
+[["pos3", 11], aj, {s: {html: "<big> <b> She achieved her dream of being famous. "}}],
+[["pos3", 11], aj, {s: {html: "<big> <b> He inspired the children to succeed. "}}],
+[["pos3", 11], aj, {s: {html: "<big> <b> They transformed the garden into an oasis. "}}],
 
-[["pos4", 4], aj, {s: {html: "<big> <b> She hugged her sister after she graduated. "}}],
-[["pos4", 4], aj, {s: {html: "<big> <b> He surprised the students with homemade cookies. "}}],
-[["pos4", 4], aj, {s: {html: "<big> <b> They cheered Martin toward the finish line. "}}],
+[["pos4", 12], aj, {s: {html: "<big> <b> She hugged her sister after she graduated. "}}],
+[["pos4", 12], aj, {s: {html: "<big> <b> He surprised the students with homemade cookies. "}}],
+[["pos4", 12], aj, {s: {html: "<big> <b> They cheered Martin toward the finish line. "}}],
 
-[["pos5", 5], aj, {s: {html: "<big> <b> She watched movies with her best friend. "}}],
-[["pos5", 5], aj, {s: {html: "<big> <b> He mastered cake decorating for his friend's birthday. "}}],
-[["pos5", 5], aj, {s: {html: "<big> <b> They gave tips to the ice cream man. "}}],
+[["pos5", 13], aj, {s: {html: "<big> <b> She watched movies with her best friend. "}}],
+[["pos5", 13], aj, {s: {html: "<big> <b> He mastered cake decorating for his friend's birthday. "}}],
+[["pos5", 13], aj, {s: {html: "<big> <b> They gave tips to the ice cream man. "}}],
 
-[["pos6", 6], aj, {s: {html: "<big> <b>She searched Google for honeymoon destinations.  "}}],
-[["pos6", 6], aj, {s: {html: "<big> <b> He enchanted the children with magic tricks. "}}],
-[["pos6", 6], aj, {s: {html: "<big> <b> They fascinated the kitten with a feather boa. "}}],
+[["pos6", 14], aj, {s: {html: "<big> <b>She searched Google for honeymoon destinations.  "}}],
+[["pos6", 14], aj, {s: {html: "<big> <b> He enchanted the children with magic tricks. "}}],
+[["pos6", 14], aj, {s: {html: "<big> <b> They fascinated the kitten with a feather boa. "}}],
 
-[["pos7", 7], aj, {s: {html: "<big> <b> She praised the students for their hard work. "}}],
-[["pos7", 7], aj, {s: {html: "<big> <b> He called the excited girls to the stage. "}}],
-[["pos7", 7], aj, {s: {html: "<big> <b> They pleased the manager with their  hard work. "}}],
+[["pos7", 15], aj, {s: {html: "<big> <b> She praised the students for their hard work. "}}],
+[["pos7", 15], aj, {s: {html: "<big> <b> He called the excited girls to the stage. "}}],
+[["pos7", 15], aj, {s: {html: "<big> <b> They pleased the manager with their  hard work. "}}],
 
-[["pos8", 8], aj, {s: {html: "<big> <b> She told her grandmother a heartwarming tale.  "}}],
-[["pos8", 8], aj, {s: {html: "<big> <b> He helped the boyscouts earn a merit  badge.  "}}],
-[["pos8", 8], aj, {s: {html: "<big> <b> They waved to the characters at the Disneyland parade. "}}],
+[["pos8", 16], aj, {s: {html: "<big> <b> She told her grandmother a heartwarming tale.  "}}],
+[["pos8", 16], aj, {s: {html: "<big> <b> He helped the boyscouts earn a merit  badge.  "}}],
+[["pos8", 16], aj, {s: {html: "<big> <b> They waved to the characters at the Disneyland parade. "}}],
 
-[["neg1", 1], aj, {s: {html: "<big> <b> She yelled obscenities at the police officer. "}}],
-[["neg1", 1], aj, {s: {html: "<big> <b> He kicked dirt in the dog's eyes. "}}],
-[["neg1", 1], aj, {s: {html: "<big> <b> They broke laws in every country. "}}],
+[["neg1", 17], aj, {s: {html: "<big> <b> She yelled obscenities at the police officer. "}}],
+[["neg1", 17], aj, {s: {html: "<big> <b> He kicked dirt in the dog's eyes. "}}],
+[["neg1", 17], aj, {s: {html: "<big> <b> They broke laws in every country. "}}],
 
-[["neg2", 2], aj, {s: {html: "<big> <b> She chewed out the mayor for election fraud. "}}],
-[["neg2", 2], aj, {s: {html: "<big> <b> He tricked the tourists out of their money. "}}],
-[["neg2", 2], aj, {s: {html: "<big> <b> They tricked voters for fraudulent votes. "}}],
+[["neg2", 18], aj, {s: {html: "<big> <b> She chewed out the mayor for election fraud. "}}],
+[["neg2", 18], aj, {s: {html: "<big> <b> He tricked the tourists out of their money. "}}],
+[["neg2", 18], aj, {s: {html: "<big> <b> They tricked voters for fraudulent votes. "}}],
 
-[["neg3", 3], aj, {s: {html: "<big> <b> She sunk the boat in the harbor. "}}],
-[["neg3", 3], aj, {s: {html: "<big> <b> He found a tick on his earlobe. "}}],
-[["neg3", 3], aj, {s: {html: "<big> <b> They banned lacrosse from the fields. "}}],
+[["neg3", 19], aj, {s: {html: "<big> <b> She sunk the boat in the harbor. "}}],
+[["neg3", 19], aj, {s: {html: "<big> <b> He found a tick on his earlobe. "}}],
+[["neg3", 19], aj, {s: {html: "<big> <b> They banned lacrosse from the fields. "}}],
 
-[["neg4", 4], aj, {s: {html: "<big> <b> She pinched her little brother on the arm. "}}],
-[["neg4", 4], aj, {s: {html: "<big> <b> He flew his paper airplane into the lake. "}}],
-[["neg4", 4], aj, {s: {html: "<big> <b> They sent hate mail to the councilman. "}}],
+[["neg4", 20], aj, {s: {html: "<big> <b> She pinched her little brother on the arm. "}}],
+[["neg4", 20], aj, {s: {html: "<big> <b> He flew his paper airplane into the lake. "}}],
+[["neg4", 20], aj, {s: {html: "<big> <b> They sent hate mail to the councilman. "}}],
 
-[["neg5", 5], aj, {s: {html: "<big> <b> She burned popcorn in the microwave. "}}],
-[["neg5", 5], aj, {s: {html: "<big> <b> He knocked over the bookshelf in the living room. "}}],
-[["neg5", 5], aj, {s: {html: "<big> <b> They found out their car was stolen. "}}],
+[["neg5", 21], aj, {s: {html: "<big> <b> She burned popcorn in the microwave. "}}],
+[["neg5", 21], aj, {s: {html: "<big> <b> He knocked over the bookshelf in the living room. "}}],
+[["neg5", 21], aj, {s: {html: "<big> <b> They found out their car was stolen. "}}],
 
-[["neg6", 6], aj, {s: {html: "<big> <b> She tasted the milk that had gone sour. "}}],
-[["neg6", 6], aj, {s: {html: "<big> <b> He burned pictures of his ex-girlfriend. "}}],
-[["neg6", 6], aj, {s: {html: "<big> <b> They ate dinner in complete silence. "}}],
+[["neg6", 22], aj, {s: {html: "<big> <b> She tasted the milk that had gone sour. "}}],
+[["neg6", 22], aj, {s: {html: "<big> <b> He burned pictures of his ex-girlfriend. "}}],
+[["neg6", 22], aj, {s: {html: "<big> <b> They ate dinner in complete silence. "}}],
 
-[["neg7", 7], aj, {s: {html: "<big> <b> She framed the innocent bystander. "}}],
-[["neg7", 7], aj, {s: {html: "<big> <b> He became sick from rotten meat. "}}],
-[["neg7", 7], aj, {s: {html: "<big> <b> They vandalized the side of the schoolbus. "}}],
+[["neg7", 23], aj, {s: {html: "<big> <b> She framed the innocent bystander. "}}],
+[["neg7", 23], aj, {s: {html: "<big> <b> He became sick from rotten meat. "}}],
+[["neg7", 23], aj, {s: {html: "<big> <b> They vandalized the side of the schoolbus. "}}],
 
-[["neg8", 8], aj, {s: {html: "<big> <b> She forged her mother's signature. "}}],
-[["neg8", 8], aj, {s: {html: "<big> <b> He closed the door on the friendly neighbor. "}}],
-[["neg8", 8], aj, {s: {html: "<big> <b> They threatened to sue for perjury.  "}}]
+[["neg8", 24], aj, {s: {html: "<big> <b> She forged her mother's signature. "}}],
+[["neg8", 24], aj, {s: {html: "<big> <b> He closed the door on the friendly neighbor. "}}],
+[["neg8", 24], aj, {s: {html: "<big> <b> They threatened to sue for perjury.  "}}]
 
 ];
