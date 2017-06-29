@@ -3,7 +3,7 @@
     padding-left: 0;
 }
 
-.s-text {
+.sentence-text {
     font-weight: bold;
     font-size: 24pt;
 }
@@ -11,7 +11,8 @@
     font-style: italic;
     clear: left;
     padding-top: 1em;
-    font-size: 16pt;
+    font-size: small;
+    font-weight: bold;
 }
 li.normal-answer {
     text-align: left;
