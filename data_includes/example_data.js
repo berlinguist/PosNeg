@@ -1,4 +1,4 @@
-var shuffleSequence = seq("intro", sepWith("sep", seq("practice")), sepWith("sep", rshuffle(startsWith("neut"), startsWith("pos"), startsWith("neg"))));
+var shuffleSequence = seq("intro", sepWith("sep", seq("practice")), sepWith("sep", rshuffle("pos1", "pos2", "pos3", "pos4", "pos5", "pos6", "pos7", "pos8", "neg1", "neg2", "neg3", "neg4", "neg5", "neg6", "neg7", "neg8", "neut1", "neut2", "neut3", "neut4", "neut5", "neut6", "neut7", "neut8")));
 
 var practiceItemTypes = ["practice"];
 
