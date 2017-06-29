@@ -1,5 +1,6 @@
 .message {
-    font-size: medium;
+    font-size: 16pt;
+    font-weight: bold;
     width: 40em;
 }
 
