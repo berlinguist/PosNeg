@@ -5,14 +5,14 @@ body {
     margin-top: 5em;
 }
 
-.AcceptabilityJudgment-sentence {
+.DashedSentence-sentence {
 	font-weight: bold;
 	font-size: 16pt;
      background-color: white;
      clear: both;
 }
 
-.AcceptabilityJudgment-sentence-text {
+.DashedSentence-sentence-text {
      background-color: white;
      clear: both;
      font-weight: bold;
@@ -20,12 +20,12 @@ body {
 }
 
 
-.AcceptabilityJudgment-s-text{
+.DashedSentence-s-text{
 	font-weight: bold;
 	font-size: 16pt;
 }
 
-.AcceptabilityJudgment-s{
+.DashedSentence-s{
 	font-weight: bold;
 	font-size: 16pt;
 }
